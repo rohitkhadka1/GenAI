@@ -29,4 +29,4 @@ chain = template1 | model | parser | template2 | model | parser
 
 result = chain.invoke({'topic':'black hole'})
 
-print(result)
+print(result.content)
